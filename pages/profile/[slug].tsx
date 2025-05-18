@@ -1,4 +1,6 @@
 // pages/profile/[slug].tsx
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
 import { Lock } from 'lucide-react'
